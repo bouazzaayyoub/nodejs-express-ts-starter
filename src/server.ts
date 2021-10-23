@@ -1,8 +1,8 @@
-import express, { Request, Response } from "express";
+import app from "./app";
 
-const app = express();
 const PORT = process.env.port || 5020;
 
 app.listen(PORT, () => {
+  // tslint:disable-next-line:no-console
   console.log(`Server Started on port ${PORT}`);
 });

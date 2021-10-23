@@ -12,5 +12,6 @@
 .env
 # production
 /build
+/dest
 
 
